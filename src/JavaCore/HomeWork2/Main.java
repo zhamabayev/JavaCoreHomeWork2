@@ -11,7 +11,8 @@ public class Main {
         };
         try {
             try {
-                methodException(arr);
+                int result = methodException(arr);
+                System.out.println(result);
             } catch (MyArraySizeException e) {
                 e.printStackTrace();
             }
